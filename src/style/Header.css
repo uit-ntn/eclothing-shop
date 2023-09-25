@@ -1,0 +1,129 @@
+.header {
+  width: 100%;
+  height: 96px;
+  margin-right: 210px;
+  display: grid;
+  grid-template-columns: 210px 0.4fr 12fr 2fr 2fr 1fr 210px;
+  grid-template-areas: ". logo search-area home account cart .";
+  margin-top: 9px;
+}
+
+.header .logo {
+  grid-area: logo;
+}
+
+.header .logo img {
+  width: 70px;
+  height: 70px;
+}
+
+.header .search-area {
+  grid-area: search-area;
+}
+
+.header .search {
+  border: 2px solid #dddde3;
+  border-radius: 5px;
+  height: 40px;
+  display: grid;
+  grid-template-columns: 0.3fr 10fr 2px 1fr;
+  grid-template-areas: "btn btn line btn";
+  margin: 0 40px 0 30px;
+  position: relative;
+  align-items: center;
+  color: #828286;
+}
+
+.header .search__icon {
+  margin: 0 10px;
+}
+
+.header .place-holder {
+  border: none;
+  outline: none;
+
+}
+
+.header .find-btn {
+  font-size: 14px;
+  background-color: #FFFFFF;
+  border: none;
+  color: #0A68FF;
+}
+
+
+.header .categories {
+  position: absolute;
+  top: 50px;
+  color: #828286;
+}
+
+.header .categories li {
+  display: inline-block;
+  padding: 0;
+  margin: 4px 30px 0 0;
+}
+
+.header .categories li:hover {
+  color: #0A68FF;
+}
+
+.header-button {
+  grid-area: btn btn btn;
+}
+
+.header-button .logo {
+  display: inline;
+}
+
+.header .header-button {
+  padding-top: 10px;
+  border-radius: 5px;
+  height: 50px;
+  width: 120px;
+}
+
+.header .btn-name {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 5px;
+  color: #828286;
+}
+
+.header-button .logo {
+  width: 24px;
+  height: 24px;
+  padding: 4px;
+}
+
+.header-button .logo img {
+  width: 30px;
+  height: 30px;
+  margin: 0px 10px 0 0;
+}
+
+.header .line {
+  background-color: #dddde3;
+  height: 20px;
+  width: 1.5px;
+}
+
+.header-button:hover,
+.header .btn-name:hover {
+  background-color: #CEE1FF;
+  color: #0A68FF;
+}
+
+.header .cart {
+  width: 40px;
+  grid-area: cart;
+  width: 40px;
+}
+
+.home-btn {
+  grid-area: home;
+}
+
+.account-btn {
+  grid-area: account;
+}
