@@ -1,0 +1,58 @@
+.footer {
+    margin: 0 210px;
+    background-color: transparent;
+}
+
+.information {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+}
+
+.info .links a {
+    text-decoration: none;
+    color: #BABABF;
+    font-size: 12px;
+}
+
+.info .links a:hover {
+    text-decoration: underline;
+}
+
+.info .links li {
+    list-style-type: none;
+}
+
+/* Phương thức thanh toán */
+.logo-list {}
+
+.info .logo-list i,
+.connect-logo-list i {
+    font-size: 24px;
+    margin: 4px;
+}
+
+/* Kết nối */
+
+.info .dowload-logos {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.info .Qr-code {
+    margin-right: 6px;
+}
+
+/* address */
+
+.separator {
+    width: 100%;
+    height: 1px;
+    background-color: #BABABF;
+}
+
+.addresses,
+.about {
+    color: #BABABF;
+    font-size: 12px;
+}
